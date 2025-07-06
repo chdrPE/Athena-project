@@ -20,4 +20,4 @@ A responsive, user-friendly eLearning web application designed to connect learne
 
 **Frontend**  
 - HTML, CSS, JavaScript  
-- React (or your framework)
+- React

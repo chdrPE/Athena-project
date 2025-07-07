@@ -102,3 +102,27 @@ footer {
     color: rgb(114, 114, 255);
     text-decoration: none;
 }
+
+/*General Registration.html settings*/
+#BodyRegister{
+    background-image:url(../images/endless-constellation.svg);
+}
+
+#RegistrationForm{
+    border-radius: 10px;
+    width: 420px;
+    height: 840px;
+    background-color: #222831;
+    border: 2.5px solid;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+
+#RegistrationForm h1, #RegistrationForm p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}

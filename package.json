@@ -1,0 +1,25 @@
+{
+  "name": "athena-project-1",
+  "version": "1.0.0",
+  "description": "A responsive, user-friendly eLearning web application designed to connect learners with quality educational content. Built with modern web technologies, it allows users to browse courses, track progress, and interact with instructors and peers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chdrPE/Athena-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chdrPE/Athena-project/issues"
+  },
+  "homepage": "https://github.com/chdrPE/Athena-project#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2"
+  }
+}

@@ -67,15 +67,19 @@ header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Second section*/
-#container1{
-    background-color: #D1D8BE;
-    padding-top: 250px;
-    padding-bottom: 250px;
+/************************CURSOS RECOMENDADS************************/
+.destacados{
+    background-color: #b2e5f1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.destacados h1{
+    padding-bottom: 50px;
+    padding-left: 175px;
 }
 .cursos{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 3em;
     justify-content: space-around;
     justify-items: center;
@@ -83,12 +87,23 @@ header h1{
 }
 
 .elemento_curso{
+    display: flex;
+    align-items: flex-start;
     background: white;
     border-radius: 20px;
     width: 100%;
     transition: all 0.3s ease;
+    padding: 10px;
+    border: 2px solid black;
 }
 
+.elemento_curso img{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+/***********************FOOTER********************/
 /*General footer settings*/
 footer {
     background-color: #222831;
@@ -145,4 +160,30 @@ input[type='text']{
     height: 25px;
     border-width: 1px;
     box-shadow: #cccccc;
+}
+
+/*********** SOBRE NOSOTROS ************/
+
+.about {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 3vh;
+    margin: 0 9%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about div {
+    align-self: center;
+}
+
+/*Cuando la pantalla es de menos de 600px, se convierte en 1 columna*/
+@media screen and (max-width: 600px) {
+    .about {
+        grid-template-columns: 1fr;
+    }
 }
